@@ -1,4 +1,4 @@
-FROM nginx:1.25.4-bookworm
+FROM nginx:1.27.0-bookworm
 
 COPY AS215855_geofeed.csv /usr/share/nginx/html/
 
